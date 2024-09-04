@@ -1,0 +1,181 @@
+/* Basic Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+/*.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ff4081;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff4081;
+}
+
+/* Login Section Styling */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.login-form:hover {
+    transform: scale(1.05);
+    transform: rotateX('turn0.5');
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-button:hover {
+    background: #e91e63;
+}
+
+/* Mentor Section Styling */
+.mentor-section {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.mentor-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mentor-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.mentor-card:hover {
+    transform: translateY(-10px);
+}
+
+.book-button {
+    background: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: #3700b3;
+}
+
+/* Booking Section Styling */
+.booking-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: #e0f7fa;
+}
+
+.booking-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.booking-form:hover {
+    transform: scale(1.05);
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-button {
+    width: 100%;
+    padding: 10px;
+    background: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: #3700b3;
+} */

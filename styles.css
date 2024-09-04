@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container, .home-container, .mentors-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #004080; /* Dark blue */
+}
+
+input, select, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+.book-button {
+    display: block;
+    background-color: #007bff;
+    margin: 20px auto;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.mentor-card {
+    padding: 20px;
+    margin: 10px 0;
+    background: #e7f1ff; /* Light blue background */
+    border-radius: 8px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #004080;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.bottom-nav button:hover {
+    color: #66b2ff; /* Light blue */
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffffff;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.chat-header {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbox {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.bot-message {
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.user-message {
+    background: #007bff;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Mentor Profile Container */
+.mentor-profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Mentor Image */
+.mentor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Review Stars */
+.review-stars {
+    margin: 20px 0;
+}
+
+.star {
+    font-size: 20px;
+    color: #ffcc00;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star.selected {
+    color: #ffcc00;
+}
+
+/* Buttons Container */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.chat-button, .video-call-button, .schedule-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.chat-button:hover, .video-call-button:hover, .schedule-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

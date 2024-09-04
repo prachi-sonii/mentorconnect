@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Connect - Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chat-header">
+            <h3>Mentor Connect Bot</h3>
+            <button onclick="closeChat()">X</button>
+        </div>
+        <div id="chatbox" class="chatbox">
+            <div class="chat-message bot-message">
+                Hello! How can I assist you today?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type a message..." onkeypress="if(event.key === 'Enter') sendMessage()" >
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <div class="chatbot-toggle" onclick="toggleChat()">💬 Chat with us</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

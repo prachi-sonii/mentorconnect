@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Connect - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome to Mentor Connect!</h1>
+        <p>Your journey to mentorship and success starts here. Choose a consultancy option below and connect with experts in various fields.</p>
+        
+        <div class="options">
+            <button onclick="location.href='entrepreneurship.html'" class="option-button">Entrepreneurship</button>
+            <button onclick="location.href='competitive.html'" class="option-button">Competitive Exams</button>
+            <button onclick="location.href='mentalhealth.html'" class="option-button">Mental Health Help</button>
+            <button onclick="location.href='internships.html'" class="option-button">Internship/Placements</button>
+            <button onclick="location.href='career.html'" class="option-button">Career Guidance</button>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <button onclick="navigateTo('post')">Post</button>
+        <button onclick="navigateTo('chat')">Chat</button>
+        <button onclick="navigateTo('home.html')">Home</button>
+        <button onclick="navigateTo('call')">Call</button>
+        <button onclick="navigateTo('more')">More</button>
+    </div>
+
+    <!-- Chatbot iframe -->
+    <iframe src="chatbot.html" class="chatbot-iframe"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
